@@ -9,6 +9,11 @@ BookKs4All is a tech-enabled platform that facilitates book donations by connect
 - **Tracking book deliveries**
 - **Ensuring transparency with proof of delivery**
 
+  ![image](https://github.com/user-attachments/assets/e607b962-8c6c-4dba-8619-4d1ad0d842f2)
+  ![image](https://github.com/user-attachments/assets/8662e2c7-7b87-48f0-bca5-09f6fee2d0a5)
+
+
+
 ## Roles & Responsibilities
 ### 1. Donor (Book Donor)
 Individuals, institutions, or bookstores that wish to donate books.
@@ -20,6 +25,9 @@ Individuals, institutions, or bookstores that wish to donate books.
 - View requests from nearby schools and match their donations.
 - Schedule book pick-up with volunteers.
 - Receive donation confirmation and certificates of appreciation.
+- Feedback from Users
+- ![image](https://github.com/user-attachments/assets/b2979114-9934-4fff-b88e-73aec05786de)
+
 
 ### 2. School (Book Receiver)
 Schools in need of book donations.
@@ -47,6 +55,9 @@ NGOs or individuals who facilitate book delivery from donors to schools.
 2. **Schools** request books based on their needs.
 3. **Volunteers** pick up books from donors and deliver them to schools.
 4. **Tracking & confirmation** ensure transparency in the process.
+
+ ![image](https://github.com/user-attachments/assets/d126e533-9f08-4031-ab52-c65daff25e5d)
+
 
 ## Tech Stack
 - **Frontend:** React.js / Vue.js (for web), Flutter / React Native (for mobile)
@@ -76,9 +87,6 @@ NGOs or individuals who facilitate book delivery from donors to schools.
 ### BOOKS APIs
 - `POST /api/books/add_book` - Add a book
 - `GET /api/books/get_book` - Get book by book_ID
-
-### Gemini 
-- `POST /api/gemini/text` - 
 
 ### School APIs
 - `POST /api/school/get-books` – Retrieve available books
