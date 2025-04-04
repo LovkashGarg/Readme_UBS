@@ -2,6 +2,7 @@
 
 ## Overview
 BookKs4All is a tech-enabled platform that facilitates book donations by connecting donors, volunteers, and underprivileged schools. The platform ensures efficient coordination, tracking, and transparency in book donations through a mobile or web application.
+  ![image](https://github.com/user-attachments/assets/8662e2c7-7b87-48f0-bca5-09f6fee2d0a5)
 
 ## Features
 - **Listing & requesting books**
@@ -10,7 +11,7 @@ BookKs4All is a tech-enabled platform that facilitates book donations by connect
 - **Ensuring transparency with proof of delivery**
 
   ![image](https://github.com/user-attachments/assets/e607b962-8c6c-4dba-8619-4d1ad0d842f2)
-  ![image](https://github.com/user-attachments/assets/8662e2c7-7b87-48f0-bca5-09f6fee2d0a5)
+
 
 
 
@@ -26,7 +27,7 @@ Individuals, institutions, or bookstores that wish to donate books.
 - Schedule book pick-up with volunteers.
 - Receive donation confirmation and certificates of appreciation.
 - Feedback from Users
-- ![image](https://github.com/user-attachments/assets/b2979114-9934-4fff-b88e-73aec05786de)
+ ![image](https://github.com/user-attachments/assets/b2979114-9934-4fff-b88e-73aec05786de)
 
 
 ### 2. School (Book Receiver)
