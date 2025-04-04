@@ -57,35 +57,43 @@ NGOs or individuals who facilitate book delivery from donors to schools.
 - **OCR:** Tesseract.js / Google Cloud Vision API (for book image processing)
 
 ## API Endpoints
-### Authentication
-- `POST /auth/register` - Register a new user
-- `POST /auth/login` - Login user
+
+### User APIs
+- `POST /api/user/signin` – User login
+- `POST /api/user/signup` – Register a new user
+- `PUT /api/user/update_profile` – Update user profile (Requires authentication)
+- `POST /api/user/orders/accept` – Accept an order (Requires authentication)
+- `GET /api/volunteer/my-orders` – Get volunteer's assigned orders (Requires authentication)
 
 ### Donor APIs
-- `POST /donors/add-book` - Add a book for donation
-- `GET /donors/my-books` - Get all books added by a donor
-- `GET /donors/match-requests` - View school requests matching listed books
-
-### School APIs
-- `POST /schools/request-book` - Request a book
-- `GET /schools/my-requests` - Get all book requests
+- `POST /api/donor/add_book` - Add a book for donation
 
 ### Volunteer APIs
-- `GET /volunteers/pending-deliveries` - Get list of pending deliveries
-- `POST /volunteers/accept-delivery` - Accept a delivery task
-- `POST /volunteers/complete-delivery` - Mark delivery as completed
+- `POST /api/volunteer/generate_otp` – Generate OTP for order verification
+- `POST /api/volunteer/verify_otp` – Verify OTP before completing an order
+- `POST /api/volunteer/change_order_status` – Update the status of an order
 
-## Deployment
-- **Server:** Deployed on AWS / Heroku
-- **Database:** Hosted on MongoDB Atlas
-- **Frontend:** Deployed on Vercel / Netlify
+### BOOKS APIs
+- `POST /api/books/add_book` - Add a book
+- `GET /api/books/get_book` - Get book by book_ID
+
+### Gemini 
+- `POST /api/gemini/text` - 
+
+### School APIs
+- `POST /api/school/get-books` – Retrieve available books
+- `POST /api/school/search_in_store` – Search for books in the store
+- `GET /api/school/get-all-books` – Get all books
+- `POST /api/school/inventory_request` – Request books (requires authentication)
+- `POST /api/school/get_all_requests` – Get all book requests (requires authentication)
+
+### Store APIs
+- `POST /api/store/create-store` – Create a new store
+
+- `POST /api/store/process_request` – Process a book request
 
 ## Contribution
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
 ## License
 MIT License
-
-
-
-
